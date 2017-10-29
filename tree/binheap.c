@@ -99,7 +99,7 @@ void main()
  scanf("%d",&n);
  for(i=0;i<n;i++)
   scanf("%d",&c[i]);
-/*1.*/ createHeap(c,n);
+ createHeap(c,n);
 for(i=0;i<n;i++)
    printf("\nExtract Min: %d",extractMin());
 }
